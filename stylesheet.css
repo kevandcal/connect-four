@@ -1,0 +1,127 @@
+#heading {
+    margin: 3vw 0;
+    text-align: center;
+    font-size: 4.7vw;
+    color: black;
+    letter-spacing: 0.8vw;
+    font-family: Georgia;
+}
+
+span {
+    color: red;
+}
+
+#board {
+    margin: 20px auto;
+    width: 49vw;
+    height: 42vw;
+    background-color: #2f43e8;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    display: grid;
+    grid-template-columns: repeat(7, 7vw);
+    grid-template-rows: repeat(6, 7vw);
+}
+
+#board div {
+    justify-self: center;
+    align-self: center;
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#board div.player1 {
+    background-color: black;
+}
+
+#board div.player2 {
+    background-color: red;
+}
+
+#player1-wins {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    z-index: 100;
+}
+
+#player1-wins.onscreen {
+    visibility: visible;
+}
+
+#player1-wins .win-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 999999;
+    text-align: center;
+    transform: translateX(100%);
+}
+
+#player1-wins.onscreen .win-text-container {
+    transform: translateX(0);
+    transition: transform 0.5s linear;
+}
+
+#player2-wins {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    z-index: 100;
+}
+
+#player2-wins.on {
+    visibility: visible;
+}
+
+#player2-wins .win-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-color: darkred;
+    z-index: 999999;
+    text-align: center;
+    transform: translateX(-100%);
+}
+
+#player2-wins.on .win-text-container {
+    transform: translateX(0);
+    transition: transform 0.5s linear;
+}
+
+.win-text-container h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+button {
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+}
