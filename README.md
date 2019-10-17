@@ -2,7 +2,7 @@
 
 The classic board game Connect Four programmed using jQuery, built as an assignment while I was a student at [SPICED Academy](https://spiced.academy/program/full-stack-web-development/).
 
-## Demo (click to try yourself)
+## Demo (click to try for yourself)
 
 [![Connect Four](connect-four.gif)](https://thenightshadefamily.github.io/connect-four/)
 
