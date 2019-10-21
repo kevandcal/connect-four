@@ -15,7 +15,7 @@ HTML, CSS, JavaScript (jQuery)
 -   True to the original design, the blue board has six rows and seven columns
 -   The board and header resize depending on the size of the user's screen (viewport)
 -   Two players (black and red) take turns dropping their chips into columns by simply clicking
--   The first player to line up four consecutive chips vertically, horizontally, or vertically wins
+-   The first player to line up four consecutive chips vertically, horizontally, or diagonally wins
 -   As soon as a player wins, an animated banner slides in from the side, announcing victory and featuring a button to restart the game and play again
 
 ## Goals of Project
