@@ -4,7 +4,7 @@ The classic board game Connect Four programmed using jQuery, built as an assignm
 
 ## Demo (click to try for yourself)
 
-[![Connect Four](connect-four.gif)](https://thenightshadefamily.github.io/connect-four/)
+[![Connect Four](connect-four.gif)](https://kevandcal.github.io/connect-four/)
 
 ## Built with
 
